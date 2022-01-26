@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E19A3A86251217CE003562BA /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = E19A3A60251217CE003562BA /* aes.c */; };
+		E19A3A89251217CE003562BA /* wav_stream.c in Sources */ = {isa = PBXBuildFile; fileRef = E19A3A66251217CE003562BA /* wav_stream.c */; };
+		E19A3A8B251217CE003562BA /* aexcl_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = E19A3A68251217CE003562BA /* aexcl_lib.c */; };
+		E19A3A8C251217CE003562BA /* raop_play.c in Sources */ = {isa = PBXBuildFile; fileRef = E19A3A69251217CE003562BA /* raop_play.c */; };
+		E19A3A91251217CE003562BA /* flac_stream.c in Sources */ = {isa = PBXBuildFile; fileRef = E19A3A73251217CE003562BA /* flac_stream.c */; };
+		E19A3A95251217CE003562BA /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = E19A3A7D251217CE003562BA /* base64.c */; };
+		E19A3A96251217CE003562BA /* raop_client.c in Sources */ = {isa = PBXBuildFile; fileRef = E19A3A7E251217CE003562BA /* raop_client.c */; };
+		E19A3A97251217CE003562BA /* rtsp_client.c in Sources */ = {isa = PBXBuildFile; fileRef = E19A3A80251217CE003562BA /* rtsp_client.c */; };
+		E19A3A9A251217CE003562BA /* mp3_stream.c in Sources */ = {isa = PBXBuildFile; fileRef = E19A3A85251217CE003562BA /* mp3_stream.c */; };
+		E1D42A4D2529F2EA00C0818B /* audio_stream.c in Sources */ = {isa = PBXBuildFile; fileRef = E1D42A4C2529F2EA00C0818B /* audio_stream.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E19A3A5525121765003562BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E19A3A5725121765003562BA /* XCodeTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XCodeTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19A3A60251217CE003562BA /* aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		E19A3A61251217CE003562BA /* flac_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flac_stream.h; sourceTree = "<group>"; };
+		E19A3A64251217CE003562BA /* raop_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = raop_client.h; sourceTree = "<group>"; };
+		E19A3A65251217CE003562BA /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		E19A3A66251217CE003562BA /* wav_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wav_stream.c; sourceTree = "<group>"; };
+		E19A3A68251217CE003562BA /* aexcl_lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aexcl_lib.c; sourceTree = "<group>"; };
+		E19A3A69251217CE003562BA /* raop_play.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = raop_play.c; sourceTree = "<group>"; };
+		E19A3A6B251217CE003562BA /* rtsp_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtsp_client.h; sourceTree = "<group>"; };
+		E19A3A6E251217CE003562BA /* mp3_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mp3_stream.h; sourceTree = "<group>"; };
+		E19A3A72251217CE003562BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E19A3A73251217CE003562BA /* flac_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = flac_stream.c; sourceTree = "<group>"; };
+		E19A3A75251217CE003562BA /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		E19A3A79251217CE003562BA /* aexcl_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aexcl_lib.h; sourceTree = "<group>"; };
+		E19A3A7C251217CE003562BA /* wav_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav_stream.h; sourceTree = "<group>"; };
+		E19A3A7D251217CE003562BA /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		E19A3A7E251217CE003562BA /* raop_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = raop_client.c; sourceTree = "<group>"; };
+		E19A3A7F251217CE003562BA /* linuxint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linuxint.h; sourceTree = "<group>"; };
+		E19A3A80251217CE003562BA /* rtsp_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtsp_client.c; sourceTree = "<group>"; };
+		E19A3A82251217CE003562BA /* raop_play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = raop_play.h; sourceTree = "<group>"; };
+		E19A3A85251217CE003562BA /* mp3_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mp3_stream.c; sourceTree = "<group>"; };
+		E1D42A4B2529F2EA00C0818B /* audio_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio_stream.h; sourceTree = "<group>"; };
+		E1D42A4C2529F2EA00C0818B /* audio_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = audio_stream.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E19A3A5425121765003562BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E19A3A4825121695003562BA = {
+			isa = PBXGroup;
+			children = (
+				E19A3A5F251217CE003562BA /* raop2_play-master 3 */,
+				E19A3A5825121765003562BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E19A3A5825121765003562BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19A3A5725121765003562BA /* XCodeTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19A3A5F251217CE003562BA /* raop2_play-master 3 */ = {
+			isa = PBXGroup;
+			children = (
+				E1D42A4C2529F2EA00C0818B /* audio_stream.c */,
+				E1D42A4B2529F2EA00C0818B /* audio_stream.h */,
+				E19A3A60251217CE003562BA /* aes.c */,
+				E19A3A75251217CE003562BA /* aes.h */,
+				E19A3A68251217CE003562BA /* aexcl_lib.c */,
+				E19A3A79251217CE003562BA /* aexcl_lib.h */,
+				E19A3A7D251217CE003562BA /* base64.c */,
+				E19A3A65251217CE003562BA /* base64.h */,
+				E19A3A73251217CE003562BA /* flac_stream.c */,
+				E19A3A61251217CE003562BA /* flac_stream.h */,
+				E19A3A7F251217CE003562BA /* linuxint.h */,
+				E19A3A85251217CE003562BA /* mp3_stream.c */,
+				E19A3A6E251217CE003562BA /* mp3_stream.h */,
+				E19A3A7E251217CE003562BA /* raop_client.c */,
+				E19A3A64251217CE003562BA /* raop_client.h */,
+				E19A3A69251217CE003562BA /* raop_play.c */,
+				E19A3A82251217CE003562BA /* raop_play.h */,
+				E19A3A72251217CE003562BA /* README.md */,
+				E19A3A80251217CE003562BA /* rtsp_client.c */,
+				E19A3A6B251217CE003562BA /* rtsp_client.h */,
+				E19A3A66251217CE003562BA /* wav_stream.c */,
+				E19A3A7C251217CE003562BA /* wav_stream.h */,
+			);
+			name = "raop2_play-master 3";
+			path = "../../Downloads/raop2_play-master 3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E19A3A5625121765003562BA /* XCodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19A3A5C25121765003562BA /* Build configuration list for PBXNativeTarget "XCodeTest" */;
+			buildPhases = (
+				E19A3A5325121765003562BA /* Sources */,
+				E19A3A5425121765003562BA /* Frameworks */,
+				E19A3A5525121765003562BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCodeTest;
+			productName = XCodeTest;
+			productReference = E19A3A5725121765003562BA /* XCodeTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E19A3A4925121695003562BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "CDust Creative Engineering";
+				TargetAttributes = {
+					E19A3A5625121765003562BA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E19A3A4C25121695003562BA /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E19A3A4825121695003562BA;
+			productRefGroup = E19A3A5825121765003562BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19A3A5625121765003562BA /* XCodeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E19A3A5325121765003562BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19A3A9A251217CE003562BA /* mp3_stream.c in Sources */,
+				E19A3A97251217CE003562BA /* rtsp_client.c in Sources */,
+				E1D42A4D2529F2EA00C0818B /* audio_stream.c in Sources */,
+				E19A3A89251217CE003562BA /* wav_stream.c in Sources */,
+				E19A3A86251217CE003562BA /* aes.c in Sources */,
+				E19A3A8B251217CE003562BA /* aexcl_lib.c in Sources */,
+				E19A3A8C251217CE003562BA /* raop_play.c in Sources */,
+				E19A3A95251217CE003562BA /* base64.c in Sources */,
+				E19A3A91251217CE003562BA /* flac_stream.c in Sources */,
+				E19A3A96251217CE003562BA /* raop_client.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E19A3A4E25121695003562BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CFLAGS[arch=*]" = "-I/usr/local/opt/openssl@1.1/include";
+				"OTHER_LDFLAGS[arch=*]" = "-L/usr/local/opt/openssl@1.1/lib";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E19A3A4F25121695003562BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/include;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E19A3A5D25121765003562BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-L/usr/local/opt/openssl@1.1/lib",
+					"-lcrypto",
+					"-lssl",
+					"-lid3tag",
+					"-lpthread",
+					"-lmad",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		E19A3A5E25121765003562BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				"OTHER_CFLAGS[arch=*]" = "-I/usr/local/opt/openssl@1.1/include";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-L/usr/local/opt/openssl@1.1/lib",
+					"-lcrypto",
+					"-lssl",
+					"-lid3tag",
+					"-lpthread",
+					"-lmad",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E19A3A4C25121695003562BA /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19A3A4E25121695003562BA /* Debug */,
+				E19A3A4F25121695003562BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19A3A5C25121765003562BA /* Build configuration list for PBXNativeTarget "XCodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19A3A5D25121765003562BA /* Debug */,
+				E19A3A5E25121765003562BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E19A3A4925121695003562BA /* Project object */;
+}
